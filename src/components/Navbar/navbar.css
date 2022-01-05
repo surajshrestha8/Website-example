@@ -1,0 +1,121 @@
+.icons {
+    color:white;
+    height: 30px;
+    width:30px;
+    margin-left: 5px;
+}
+
+
+.topnavbar {
+    background-image: url("https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwbGVhcm5pbmd8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+.infobuttons {
+    width: 200px;
+    height:30px;
+    background-color: green;
+    border: 1px solid;
+    border-radius: 2px;;
+    color: white;
+    margin-left: 5px;
+}
+
+.topnavitems {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.topinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons:hover{
+    color:blueviolet;
+}
+
+.rows {
+    display: flex;
+    justify-content: flex-start;
+    background: rgba(51, 170, 51, .1);
+    height: 60px;
+    color: white;
+    align-items: center;
+}
+
+.rowscontent {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.rowscontent:hover{
+    color:green
+
+}
+
+.buttonn {
+    display:none
+}
+
+.welcometext{
+    text-align: left;
+    color:white;
+}
+.groupbutton {
+    display: flex;
+}
+@media (max-width:800px){
+
+    .rows {
+        display: block;
+
+        background: rgba(51, 170, 51, .1);
+        color: white;
+        height:fit-content;
+    }
+    .buttonn {
+        display: flex;
+        float: right;
+        color: red;
+        cursor: pointer;
+        height: 60px;
+        width: 60px;
+    }
+    .image {
+        height: auto;
+        width:100%;
+    }
+    .icons{
+        display: flex;
+    }
+   
+
+@media (max-width:580px){
+    .welcometext{
+        color:white;
+        
+    }
+    .infocolumn {
+    
+        display: block;
+        align-content: center;
+    }
+    .groupbutton{
+        display: block;
+    }
+    .topnavbar{
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+}
+}
+
+
+

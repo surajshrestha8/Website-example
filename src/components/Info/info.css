@@ -1,0 +1,13 @@
+.mainbox {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.boxitems {
+    display: flex;
+    
+}

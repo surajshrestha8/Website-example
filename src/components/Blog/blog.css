@@ -1,0 +1,33 @@
+.blogcard {
+    width:400px;
+    height:450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 20px;
+    
+    
+}
+
+.imagecard {
+    width: 400px;
+    height: 225px;
+    background-image: url('https://i.pinimg.com/736x/e4/85/1e/e4851efe2e7c945e6c713aca17fd60f6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.information {
+    margin-top: 10px;
+    display: flex;
+    
+
+}
+.details {
+    display: inline-flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cardss {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+}

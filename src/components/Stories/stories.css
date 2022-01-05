@@ -1,0 +1,33 @@
+.story {
+    margin-top: 20px;
+    background-image: url('https://www.cicnews.com/wp-content/uploads/2020/02/20200220_InternationalStudentsRecordNumbers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.story:hover{
+    background-color: blue;
+}
+
+.description {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+@media (max-width:500px){
+
+        .story{
+            height: fit-content;
+            display:block;
+            width: 100%;
+            
+        }
+}
